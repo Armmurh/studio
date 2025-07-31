@@ -3,8 +3,8 @@ import { Toaster } from "@/components/ui/toaster"
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'GlobalGlow Weather App',
-  description: 'AI-powered weather forecasts and outfit suggestions.',
+  title: 'GlobalGlow - AI Weather & Style',
+  description: 'Get instant, AI-powered weather forecasts and personalized outfit recommendations for any location worldwide. Built with Next.js, Gemini, and OpenWeatherMap.',
 };
 
 export default function RootLayout({

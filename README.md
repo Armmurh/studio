@@ -1,13 +1,25 @@
-# GlobalGlow Weather App
+# GlobalGlow: AI-Powered Weather & Outfit Recommendations
 
-This is a weather forecast application built with Next.js, OpenWeatherMap, and the Gemini API.
+GlobalGlow is a sleek, modern weather application that provides real-time weather forecasts for any location worldwide. It goes beyond simple data, using the power of the Gemini AI to generate insightful weather summaries and personalized outfit suggestions tailored to the current conditions.
 
-## Features
+Built with a cutting-edge tech stack, this app serves as an excellent example of integrating AI into a practical, user-friendly web application.
 
-- Get weather forecasts for any location worldwide.
-- AI-powered weather summaries.
-- AI-based outfit recommendations based on the weather.
-- Elegant, responsive design.
+## Core Features:
+
+*   **Global Weather Search:** Instantly retrieve current weather conditions for any city or country.
+*   **Detailed Forecast:** Get key metrics like temperature (Celsius), humidity, and wind speed.
+*   **AI-Driven Summary:** Receive a concise, easy-to-understand summary of the day's weather, powered by Google's Gemini.
+*   **Smart Outfit Suggestions:** Let the AI act as your personal stylist, recommending the perfect outfit based on the forecast.
+*   **Responsive Design:** Enjoy a seamless experience on any device, from desktop to mobile.
+*   **Elegant UI:** A clean and beautiful interface built with ShadCN UI and Tailwind CSS.
+
+## Tech Stack:
+
+*   **Framework:** Next.js (with App Router)
+*   **Generative AI:** Google's Gemini API via Genkit
+*   **Weather Data:** OpenWeatherMap API
+*   **Styling:** Tailwind CSS & ShadCN UI
+*   **Deployment:** Firebase App Hosting
 
 ## Getting Started
 
