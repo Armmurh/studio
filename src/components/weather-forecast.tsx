@@ -1,7 +1,7 @@
 'use client';
 
-import { useFormState, useFormStatus } from 'react-dom';
-import { useEffect } from 'react';
+import { useActionState, useEffect } from 'react';
+import { useFormStatus } from 'react-dom';
 import { Wind, Droplets, Thermometer, Search, BrainCircuit, Sparkles, Shirt } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
@@ -72,7 +72,7 @@ function WeatherCardSkeleton() {
 }
 
 export function WeatherForecast() {
-  const [state, formAction] = useFormState(getWeatherForLocation, initialState);
+  const [state, formAction] = useActionState(getWeatherForLocation, initialState);
   const { pending } = useFormStatus();
   const { toast } = useToast();
 
