@@ -37,7 +37,7 @@ Now, open `.env.local` and add your API keys:
 
 ```
 OPENWEATHERMAP_API_KEY="YOUR_OPENWEATHERMAP_API_KEY"
-GOOGLE_API_KEY="YOUR_GOOGLE_GENERATIVE_AI_API_KEY"
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 ```
 
 - You can get an OpenWeatherMap API key from [https://openweathermap.org/api](https://openweathermap.org/api).
